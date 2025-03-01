@@ -2,7 +2,6 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-       // System.out.println("Hello, World!");
         String bal = "{[()]}";
         String bal1 = "{[()()]{}{[()()]}}";
         String bal2 = "((()))[]{}{}";
@@ -59,19 +58,6 @@ public class Main {
             System.out.println("String to decode: " + decodes[i]);
             System.out.println(decodeString(decodes[i]));
         }
-
-
-
-
-
-
-
-
-
-
-
-        //System.out.println("abcd^e-fgh*+^*+i-");
-
 
     }
 
